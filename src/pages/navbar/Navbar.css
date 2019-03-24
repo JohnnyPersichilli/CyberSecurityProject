@@ -1,0 +1,69 @@
+.navbar {
+    border-bottom: 1px solid #e7e9ec;
+    height: 60px;
+    background-color: rgb(130, 196, 226);
+    display: flex;
+  }
+  
+  .navbarLogo {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid navy;
+      background-color: white;
+  }
+
+  .homeButtons {
+    width: 80%;
+    display: flex;
+  }
+
+  .novaIcon {
+    margin-left: 5px;
+    margin-right: 5%;
+  }
+
+  .goalieIcon {
+    position: absolute;
+    right: 5px;
+    margin-left: 2%;
+  }
+
+  .navbarButtons {
+    margin-left: 1%;
+    height: 100%;
+    width: 33%;
+    background-color: transparent;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .dropDown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+
+  .dropDownItems {
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+  .dropDownItems a {
+
+  }
+
+  .dropDown:hover .dropDownItems {
+    display: block;
+  }
+  
+  @media only screen and (min-width:150px) and (max-width:750px)
+  {
+    .hideMobile {
+      display: none !important;
+    }
+  }

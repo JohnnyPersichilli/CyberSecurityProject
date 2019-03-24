@@ -1,0 +1,214 @@
+.searchBar {
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    border: 1px solid navy;
+    width: 22%;
+    position: absolute;
+    right: 50px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: calc( 9px + .6vw );
+  }
+  
+  .player {
+      border-right: 4px solid navy;
+      padding-right: 20px;
+  }
+
+  .goalie {
+      padding-left: 20px;
+  }
+  .searchGlass {
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color:  rgb(130, 196, 226);
+    border: 1px solid navy;
+    color: white;
+    width: 35px;
+    position: absolute;
+    right: 20px;
+    height: 40px;
+  }
+
+  .projectsHeader {
+    vertical-align: top;
+    display: inline;
+    color: navy;
+}
+
+  .noPaddingRight {
+    margin-right: 0px;
+    font-size: calc(16px + 1.5vw);
+    margin-right: 3%;
+    margin: 0px;
+  }
+
+  .topBar {
+    display: flex;
+    margin-top: 15px;
+    height: 40px;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+  .statsContainer {
+    margin-left:3%;
+  }
+
+  .formatStatsTable {
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-left: 20%;
+    float: left;
+    border: navy 2px solid;
+}
+
+  .formatStatsRow {
+      border-bottom: 1px navy solid;
+  }
+
+  .underline {
+      text-decoration: underline;
+  }
+
+  .flex {
+      display: flex;
+  }
+  .listNames {
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: calc(4px+2vw)
+  }
+
+  .listOther {
+    color: black;
+    text-align: center;
+  }
+
+  .listHeadings {
+    margin-left: 10px;
+    margin-right: 2px;
+    background-color: rgb(130, 196, 226);
+    color: white;
+    border: navy 2px solid;
+    border-radius: 0px;
+  }
+  
+  .listBuild {
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .listVersion {
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .listDate {
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .listInstall {
+    text-align: center;
+  }
+  
+  .listFileSize {
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .projectElement {
+    color: black;
+  }
+  
+  .installButton {
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 5px;
+      color:crimson;
+      font-weight: 600;
+  }
+
+  
+  h2 {
+    letter-spacing: 1px;
+    margin: 40px;
+  }
+  
+  .addProjectButton {
+    color: white;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%;
+    min-width: 100px;
+    font-size: calc(10px + .2vw);
+  }
+  
+  .headerCol {
+      height: 50px;
+      background-color: crimson;
+      color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .smallPageHeader2{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    vertical-align: middle;
+  }
+  
+  .listProjElements {
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .col1Width {
+    width: 60%;
+  }
+  
+  .col2Width {
+    width: 40%;
+  }
+  
+  .col3Width {
+    width: 7%;
+  }
+
+  .seperatePar {
+      float: left;
+  }
+  
+
+  
+
+  
